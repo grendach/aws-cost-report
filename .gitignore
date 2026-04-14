@@ -1,5 +1,8 @@
 # virtualenv
 venv/
+.venv/
+env/
+ENV/
 
 #IDE
 .vscode/
@@ -12,5 +15,11 @@ venv/
 .DS_Store
 Thumbs.db
 
-#Logs
 *.log
+__pycache__/*
+*/.terraform/*
+*/.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.terraform.*
+*/*.zip
